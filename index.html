@@ -13,7 +13,32 @@
   </head>
   <body>
 
-      <div id="carouselControls" class="carousel slide" data-ride="carousel">
+   
+
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <a class="navbar-brand" href="#">Gourmet Burgers</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Locations</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-md-1">
+                        <input class="form-control mr-sm-2" type="text" placeholder="search">
+                        <Button class="btn btn-outline-success my-2" type="submit">Search</Button>
+                    </form>
+                </div>
+            </nav>
+        </header>
+
+        <div id="carouselControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="w-100" src="images/carousel1.jpg" alt="First slide">
@@ -39,31 +64,8 @@
                 <span class="sr-only">Next</span>
             </a>
       </div>
-
-        <header>
-            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-                <a class="navbar-brand" href="">Gourmet Burgers</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Locations</a>
-                        </li>
-                    </ul>
-                    <form action="">
-                        <input type="text">
-                        <Button>Search</Button>
-                    </form>
-                </div>
-            </nav>
-        </header>
     
-    <div class="container text-center">
+    <div class="container text-center py-5">
 
         <div class="row">
             <div class="col-md-4">
@@ -144,6 +146,14 @@
       </div>
     </div>
   </div>
+
+  <footer class="container bg-light py-4">
+      <p><a class="float-right" href="#">Back to top</a></p>
+        <p>&copy; 2020 Gourmet Burgers &middot;
+            <a href="">Home</a> &middot;
+            <a href="">Locations</a>
+        </p>
+  </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
